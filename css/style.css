@@ -12,12 +12,23 @@ body {
     font-weight: 400;
 }
 
-.topnav {
+/*topnav block*/
+
+.sticknav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: whitesmoke;
+    transition: 0.5s;
+}
+
+#topnav {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     height: 101px;
+    transition: 0.5s;
 }
 
 .topnav-center a {
@@ -53,3 +64,64 @@ body {
     font-size: 18px;
     letter-spacing: 0.4px;
 }
+
+/*Topnav endblock*/
+
+/*Step-1 block*/
+.step-1 {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin-top: 110px;
+}
+
+.step-1-left h2 {
+    font-size: 63px;
+    font-weight: 400;
+    line-height: 79px;
+    letter-spacing: 2.20px;
+}
+
+.step-1-left p {
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 0.40px;
+    padding-top: 31px;
+}
+
+.step-1-left button {
+    background-color: #3F53D8;
+    border: none;
+    color: white;
+    width: 240px;
+    height: 60px;
+    border-radius: 14px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    margin-top: 60px;
+}
+
+.step-1-left img {
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 34px;
+}
+
+.step-1-right-img {margin-left: 130px;}
+
+.step-1-down {
+    text-align: center;
+    align-self: center;
+    margin-top: 143px;
+}
+
+.step-1-down h4 {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0.5px;
+    margin-bottom: 24px;
+}
+
+/*Step-1 endblock*/
