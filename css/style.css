@@ -169,3 +169,58 @@ body {
 }
 
 /*Step-2 endblock*/
+
+/*Step-3 block*/
+.step-3 {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 180px;
+}
+
+.step-3-right {margin-left: 138px;}
+
+.step-3-right h2 {
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 1.5px;
+    padding-bottom: 22px;
+}
+
+.step-3-right p {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.36px;
+    color: #545479;
+    padding-bottom: 35px;
+}
+
+.step-3-right ul {
+    padding-left: 36px;
+    list-style-type: none;
+}
+
+.step-3-right ul > li {
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.36px;
+    padding-bottom: 14px;
+}
+
+.step-3-right button {
+    background-color: #3F53D8;
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 174px;
+    height: 59px;
+    border-radius: 14px;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    margin-top: 64px;
+}
+
+/*Step-3 endblock*/
