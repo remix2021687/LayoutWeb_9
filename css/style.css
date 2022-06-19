@@ -224,3 +224,55 @@ body {
 }
 
 /*Step-3 endblock*/
+
+/*Step-4 block*/
+.step-4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 199px;
+}
+
+.step-4-left h2 {
+    font-size: 42px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+
+.step-4-left > p {
+    font-size: 18px;
+    color: #545479;
+    line-height: 29px;
+    letter-spacing: 0.36px;
+    padding: 27px 0 43px 0;
+}
+
+.step-4-left button {
+    background-color: #3F53D8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 174px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 14px;
+    letter-spacing: 0.4px;
+    margin-top: 48px;
+}
+
+.step-4-left-box {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.step-4-left-box p {
+    letter-spacing: 0.36px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    padding-left: 24px;
+}
+
+/*Step-4 endblock*/
