@@ -93,6 +93,7 @@ body {
     background-color: #3F53D8;
     border: none;
     color: white;
+    cursor: pointer;
     width: 240px;
     height: 60px;
     border-radius: 14px;
@@ -156,8 +157,8 @@ body {
    grid-template-columns: repeat(4, 1fr);
    grid-template-rows: repeat(2, 1fr);
    grid-column-gap: 107px;
-    grid-row-gap: 100px;
-    margin-top: 106px;
+   grid-row-gap: 100px;
+   margin-top: 106px;
 }
 
 .step-2-box {text-align: center;}
@@ -174,7 +175,6 @@ body {
 .step-3 {
     display: flex;
     flex-direction: row;
-    /* align-items: center; */
     justify-content: center;
     margin-top: 180px;
 }
@@ -255,9 +255,9 @@ body {
     cursor: pointer;
     width: 174px;
     height: 60px;
+    border-radius: 14px;
     font-size: 18px;
     font-weight: 400;
-    border-radius: 14px;
     letter-spacing: 0.4px;
     margin-top: 48px;
 }
@@ -276,3 +276,46 @@ body {
 }
 
 /*Step-4 endblock*/
+
+/*Step-5 block*/
+.step-5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 180px;
+}
+
+.step-5-right {margin-left: 132px;}
+
+.step-5-right h2 {
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 1.4px;
+    padding-top: 42px;
+}
+
+.step-5-right p {
+    color: #545479;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.36px;
+    line-height: 29px;
+    padding-top: 27px;
+}
+
+.step-5-right-line {
+    width: 510px;
+    height: 1px;
+    background-color: rgba(8, 8, 41, 0.3);
+    margin-top: 35px;
+}
+
+.step-5-logos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+}
+
+/*Step-5 endblock*/
