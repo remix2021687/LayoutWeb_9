@@ -319,3 +319,46 @@ body {
 }
 
 /*Step-5 endblock*/
+
+/*Step-6 block*/
+.step-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 117px;
+}
+
+.step-6 h2 {
+    font-size: 43px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+
+.step-6-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 82px;
+}
+
+.step-6-box {margin-left: 90px;}
+
+.step-6-box h2 {
+    font-size: 27px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    padding-top: 39px;
+}
+
+.step-6-box p {
+    color: #545479;
+    max-width: 334px;
+    font-size: 17px;
+    line-height: 29px;
+    letter-spacing: 0.35px;
+    padding-top: 20px;
+}
+
+/*Step-6 endblock*/
