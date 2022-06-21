@@ -381,7 +381,6 @@ body {
 }
 
 .step-7-content {
-    position: static;
     margin-top: 81px;
     width: 746px;
     height: 432px;
@@ -405,5 +404,46 @@ body {
 
 .step-7-content img {padding-top: 40px;}
 
+.step-8 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 246px;
+}
+
+.step-8 p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+
+.step-8 p > img {margin-right: 24px;}
+
+.step-8-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.step-8-box {padding: 0 40px;}
+
+.step-8-box h2  {
+    font-size: 42px;
+    font-weight: 400;
+    letter-spacing: 1.4px;
+    padding-bottom: 15px;
+}
+
+.step-8-box h2 > span {color: #3F53D8;}
+
+.step-8-box p {
+    color: #545479;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+}
 
 /*Step-7 endblock*/
