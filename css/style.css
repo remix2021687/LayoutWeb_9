@@ -403,7 +403,9 @@ body {
 }
 
 .step-7-content img {padding-top: 40px;}
+/*Step-7 endblock*/
 
+/*Step-8 block*/
 .step-8 {
     display: flex;
     flex-direction: row;
@@ -445,5 +447,30 @@ body {
     font-size: 17px;
     line-height: 27px;
 }
+/*Step-8 endblock*/
 
-/*Step-7 endblock*/
+/*Step-9 block*/
+.step-9 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 97px;
+}
+
+.step-9 h2 {
+    text-align: center;
+    font-size: 47px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 1.4px;
+}
+
+.step-9-top {
+    margin-top: 91px;
+    margin-bottom: 80px;
+}
+
+.step-9-top img {padding: 0 88px;}
+.step-9-down img {padding: 0 60px;}
+/*Step-9 endblock*/
