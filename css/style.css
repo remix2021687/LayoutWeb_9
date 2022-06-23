@@ -572,3 +572,77 @@ body {
 }
 
 /*Step-11 endblock*/
+
+/*Footer block*/
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 784px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 1200px;
+    height: 504px; 
+    margin: 108px 120px;
+}
+
+.footer-content > img {
+    margin-right: 312px;
+}
+
+.footer-center {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-center h4 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.footer-center ul {
+    list-style-type: none;
+    margin-right: 109px;
+}
+
+.footer-center ul > li {
+    padding-bottom: 20px;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+}
+
+.footer-right h3 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.footer-right p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    margin-top: 16px;
+    margin-bottom: 14px;
+}
+
+.footer-right p > img {padding-right: 10px;}
+
+.footer-right-social {
+    justify-self: center;
+    margin-top: 36px;
+}
+
+.footer-right-social img {padding-left: 29px;}
+
+/*Footer endblock*/
