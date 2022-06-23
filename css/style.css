@@ -528,3 +528,47 @@ body {
 }
 
 /*Step-10 endblock*/
+
+/*Step-11 block*/
+.step-11 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/LayoutWeb_9/img/step-11-bg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 676px;
+    margin-top: 179px;
+}
+
+.step-11 h2 {
+    text-align: center;
+    color: white;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 79px;
+    letter-spacing: 2.16px;
+}
+
+.step-11 button {
+    background-color: #3F53D8;
+    border: none;
+    border-radius: 14px;
+    color: white;
+    width: 240px;
+    height: 59px;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    margin-top: 65px;
+}
+
+.step-11-img {
+    position: relative;
+    top: 70px;
+    left: 50px;
+}
+
+/*Step-11 endblock*/
